@@ -86,7 +86,7 @@ for start_time, end_time in generate_event_times():
         create_event(
             summary=event_name,
             start_time=start_time,
-            end_time=start_time,
+            end_time=end_time,
             guest_emails=users_in_watercooler,
             description=(f"Watercooler topic:\n{chosen_topics[i]}"),
             google_meet=gmeets[i],
