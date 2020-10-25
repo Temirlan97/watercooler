@@ -1,0 +1,30 @@
+user_group_name: Avengers
+number_of_rooms: 3
+
+slots:
+# day must be full weekday name
+# time must be in 24-hour format
+  - day: Wednesday
+    start_time: 14:30
+    end_time: 15:00
+  - day: Friday
+    start_time: 14:30
+    end_time: 15:00
+
+user_emails:
+  - thor@avengers.com
+  - ironman@avengers.com
+  - spiderman@avengers.com
+  - hulk@avengers.com
+  - blackwidow@avengers.com
+  - antman@avengers.com
+  - groot@avengers.com
+  - blackpanther@avengers.com
+  - doctorstrange@avengers.com
+  - captainamerica@avengers.com
+  - hawkeye@avengers.com
+
+google_meet_links:
+  - https://meet.google.com/generate_your_own_corporate_gmeet_links
+  - https://meet.google.com/generate_your_own_corporate_gmeet_links
+  - https://meet.google.com/generate_your_own_corporate_gmeet_links

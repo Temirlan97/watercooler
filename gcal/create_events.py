@@ -60,7 +60,6 @@ def create_event(
             "timeZone": "Europe/Berlin",
         },
         "attendees": [{"email": email, "optional": True} for email in guest_emails],
-        "reminders": {"useDefault": False},
     }
     created_event = (
         create_service().events().insert(calendarId="primary", body=event).execute()
