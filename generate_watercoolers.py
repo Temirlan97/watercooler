@@ -19,7 +19,7 @@ from gcal.create_events import create_event
 def generate_watercoolers():
     script_dir = pathlib.Path(__file__).parent.absolute()
     # Load user_groups and generate watercoolers
-    user_groups_directory =  script_dir / "user_groups"
+    user_groups_directory = script_dir / "user_groups"
     all_files = [
         os.path.join(user_groups_directory, f)
         for f in os.listdir(user_groups_directory)

@@ -27,7 +27,9 @@ def create_service(creds_dir: pathlib.PosixPath):
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file(creds_dir / "credentials.json", SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file(
+                creds_dir / "credentials.json", SCOPES
+            )
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
         with open(token_fl, "wb") as token:
@@ -65,7 +67,10 @@ def create_event(
         "attendees": [{"email": email, "optional": True} for email in guest_emails],
     }
     created_event = (
-        create_service(creds_dir=creds_dir).events().insert(calendarId="primary", body=event).execute()
+        create_service(creds_dir=creds_dir)
+        .events()
+        .insert(calendarId="primary", body=event)
+        .execute()
     )
     print(f"Event created: {(created_event.get('htmlLink'))}")
 
