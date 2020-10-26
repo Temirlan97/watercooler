@@ -1,6 +1,7 @@
 import math
 import numpy as np
 import os
+import pathlib
 import random
 import yaml
 import sys
@@ -16,21 +17,28 @@ from gcal.create_events import create_event
 
 
 def generate_watercoolers():
+    script_dir = pathlib.Path(__file__).parent.absolute()
     # Load user_groups and generate watercoolers
-    USER_GROUPS_DIRECTORY = "user_groups"
+    user_groups_directory =  script_dir / "user_groups"
     all_files = [
-        os.path.join(USER_GROUPS_DIRECTORY, f)
-        for f in os.listdir(USER_GROUPS_DIRECTORY)
+        os.path.join(user_groups_directory, f)
+        for f in os.listdir(user_groups_directory)
     ]
     yaml_files = [f for f in all_files if os.path.isfile(f) and f.endswith(".yaml")]
     for yaml_file in yaml_files:
         print(colored(f"Reading file {yaml_file}...", "magenta"))
-        generate_watercoolers_for_user_group(yaml_file)
+        generate_watercoolers_for_user_group(
+            user_group_file_name=yaml_file,
+            script_dir=script_dir,
+        )
 
 
-def generate_watercoolers_for_user_group(user_group_file_name: str):
+def generate_watercoolers_for_user_group(
+    user_group_file_name: str,
+    script_dir: pathlib.PosixPath,
+):
     # Load topics
-    with open("topics.txt", "r") as topics_file:
+    with open(script_dir / "topics.txt", "r") as topics_file:
         all_topics = list(
             map(str.strip, filter(lambda x: x, topics_file.read().split("TOPIC_BEGIN")))
         )
@@ -72,6 +80,7 @@ def generate_watercoolers_for_user_group(user_group_file_name: str):
                     "guest_emails": users_in_watercooler,
                     "description": f"Watercooler topic:\n{chosen_topics[i]}",
                     "google_meet": gmeets[i],
+                    "creds_dir": script_dir,
                 }
             )
 
