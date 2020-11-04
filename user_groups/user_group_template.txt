@@ -1,6 +1,11 @@
+# The calendar event will be named "<user_group_name> Watercooler"
 user_group_name: Avengers
+# The users will be split equally amongst these number of rooms.
 number_of_rooms: 3
 
+# The number of watercooler events per week and their times.
+# `number_of_rooms` distinct gcal events will be created in each `slot`.
+# If you would like a weekly watercooler, create one slot entry.
 slots:
 # day must be full weekday name
 # time must be in 24-hour format
@@ -24,6 +29,7 @@ user_emails:
   - captainamerica@avengers.com
   - hawkeye@avengers.com
 
+# These need to be manually created using the corporate account.
 google_meet_links:
   - https://meet.google.com/generate_your_own_corporate_gmeet_links
   - https://meet.google.com/generate_your_own_corporate_gmeet_links
