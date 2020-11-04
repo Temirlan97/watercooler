@@ -1,5 +1,6 @@
 from __future__ import print_function
 import datetime
+import pathlib
 import pickle
 import os.path
 from datetime import datetime
@@ -12,23 +13,26 @@ from typing import List
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 
-def create_service():
+def create_service(creds_dir: pathlib.PosixPath):
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
     # time.
-    if os.path.exists("token.pickle"):
-        with open("token.pickle", "rb") as token:
+    token_fl = creds_dir / "token.pickle"
+    if os.path.exists(token_fl):
+        with open(token_fl, "rb") as token:
             creds = pickle.load(token)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file("credentials.json", SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file(
+                creds_dir / "credentials.json", SCOPES
+            )
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
-        with open("token.pickle", "wb") as token:
+        with open(token_fl, "wb") as token:
             pickle.dump(creds, token)
 
     return build("calendar", "v3", credentials=creds)
@@ -39,6 +43,7 @@ def create_event(
     start_time: datetime,
     end_time: datetime,
     guest_emails: List[str],
+    creds_dir: pathlib.PosixPath,
     description: str = "Automatically created event",
     google_meet: str = "",
 ):
@@ -62,7 +67,10 @@ def create_event(
         "attendees": [{"email": email, "optional": True} for email in guest_emails],
     }
     created_event = (
-        create_service().events().insert(calendarId="primary", body=event).execute()
+        create_service(creds_dir=creds_dir)
+        .events()
+        .insert(calendarId="primary", body=event)
+        .execute()
     )
     print(f"Event created: {(created_event.get('htmlLink'))}")
 
