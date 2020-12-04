@@ -28,14 +28,12 @@ def generate_watercoolers():
     for yaml_file in yaml_files:
         print(colored(f"Reading file {yaml_file}...", "magenta"))
         generate_watercoolers_for_user_group(
-            user_group_file_name=yaml_file,
-            script_dir=script_dir,
+            user_group_file_name=yaml_file, script_dir=script_dir,
         )
 
 
 def generate_watercoolers_for_user_group(
-    user_group_file_name: str,
-    script_dir: pathlib.PosixPath,
+    user_group_file_name: str, script_dir: pathlib.PosixPath,
 ):
     # Load topics
     with open(script_dir / "topics.txt", "r") as topics_file:
