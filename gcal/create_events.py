@@ -123,7 +123,9 @@ def test():
 
 def _parse_args():
     """Parse command line arguments"""
-    cmd_parser = argparse.ArgumentParser(description="Script to test event creation.",)
+    cmd_parser = argparse.ArgumentParser(
+        description="Script to test event creation.",
+    )
     cmd_parser.add_argument(
         "--email-ids",
         dest="email_ids",

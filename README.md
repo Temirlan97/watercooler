@@ -4,6 +4,7 @@
 A script to automate watercooler event creation in Google Calendar.
 
 ## How to run?
+- Make virtualenv with `make venv && source venv/bin/activate`.
 - Generate and save authorisation tokens for Google Calendar API.
   - Make sure to follow steps described [here](https://developers.google.com/calendar/quickstart/python)
   to be able to use Google Calendar API. We recommend using your

@@ -6,3 +6,4 @@ token.pickle
 __pycache__/
 *.py[cod]
 user_groups/*.yaml
+venv/
