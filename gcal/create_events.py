@@ -1,3 +1,7 @@
+"""This module/script contains functions to create gcal auth tokens and events.
+
+See README for usage.
+"""
 from __future__ import print_function
 import argparse
 import datetime
