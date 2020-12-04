@@ -10,3 +10,10 @@ A script to automate watercooler event creation in Google Calendar.
 - Run `python generate_watercoolers.py` to generate watercoolers for all user groups in `user_groups` folder.
 
 **Note:** When running the script for the first time, your browser will automatically open an authorisation window and prompt you to authorise read and write access. This will create a `token.pickle` file. For subsequent runs, the script will simply read the cached token and you would not need a browser.
+
+
+## Scheduling on cron
+The following example schedules the watercoolers every week on Mondays at 5am.
+``` bash
+0 5 * * MON /home/virtualenv/bin/python /home/watercooler/generate_watercoolers.py
+```
