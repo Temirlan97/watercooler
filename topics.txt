@@ -122,3 +122,777 @@ Your favorite Japanese meal?
 TOPIC_BEGIN
 
 Have you booked your PTO? What are your plans?
+
+TOPIC_BEGIN
+
+What is your favorite story at Yelp?
+
+TOPIC_BEGIN
+
+Do you love working from home or would you rather be in the office? Is there a balance of both that you like best?
+
+TOPIC_BEGIN
+
+What’s the hardest part about working virtually for you? The easiest?
+
+TOPIC_BEGIN
+
+Do you have a dedicated office space at home?
+
+TOPIC_BEGIN
+
+Show us your office space!
+
+TOPIC_BEGIN
+
+Where do you work most frequently from at home? Your office? Your kitchen table? The backyard? Your bed?
+
+TOPIC_BEGIN
+
+Be honest, how often do you work from bed?
+
+TOPIC_BEGIN
+
+What did you eat for breakfast?
+
+TOPIC_BEGIN
+
+What does your morning routine look like when working from home?
+
+TOPIC_BEGIN
+
+What’s your number one tip for combating distractions when working from home?
+
+TOPIC_BEGIN
+
+How do you stay productive and motivated working virtually?
+
+TOPIC_BEGIN
+
+What does your typical work from home uniform look like?
+
+TOPIC_BEGIN
+
+How many cups of coffee, tea, or beverage-of-choice do you have each morning?
+
+TOPIC_BEGIN
+
+Are you an early bird or night owl?
+
+TOPIC_BEGIN
+
+What about showers? Do you prefer morning or night?
+
+TOPIC_BEGIN
+
+What’s one thing we could do to improve our virtual meetings?
+
+TOPIC_BEGIN
+
+What’s your favorite flower or plant?
+
+TOPIC_BEGIN
+
+What’s your caffeinated beverage of choice? Coffee? Cola? Tea?
+
+TOPIC_BEGIN
+
+What’s your favorite scent?
+
+TOPIC_BEGIN
+
+What’s the last great TV show or movie you wanted?
+
+TOPIC_BEGIN
+
+Best book you’ve ever read?
+
+TOPIC_BEGIN
+
+Best professional development book you’ve ever read?
+
+TOPIC_BEGIN
+
+If you could learn one new professional skill, what would it be?
+
+TOPIC_BEGIN
+
+If you could learn one new personal skill, what would it be?
+
+TOPIC_BEGIN
+
+What’s your favorite way to get in some exercise?
+
+TOPIC_BEGIN
+
+If you could write a book, what genre would you write it in? Mystery? Thriller? Romance? Historical fiction? Non-fiction?
+
+TOPIC_BEGIN
+
+What is one article of clothing that someone could wear that would make you walk out on a date with them?
+
+TOPIC_BEGIN
+
+The zombie apocalypse is coming, who are 3 people you want on your team?
+
+TOPIC_BEGIN
+
+What is your most used emoji?
+
+TOPIC_BEGIN
+
+What was the worst style choice you ever made?
+
+TOPIC_BEGIN
+
+What was the worst haircut you ever had?
+
+TOPIC_BEGIN
+
+Who was your childhood actor/actress crush?
+
+TOPIC_BEGIN
+
+If you were a wrestler what would be your entrance theme song?
+
+TOPIC_BEGIN
+
+Have you ever been told you look like someone famous, who was it?
+
+TOPIC_BEGIN
+
+If you could bring back any fashion trend what would it be?
+
+TOPIC_BEGIN
+
+What’s the most embarrassing fashion trend you used to rock?
+
+TOPIC_BEGIN
+
+What did you name your first car?
+
+TOPIC_BEGIN
+
+Does your current car have a name? What is it?
+
+TOPIC_BEGIN
+
+You have your own late night talk show, who do you invite as your first guest?
+
+TOPIC_BEGIN
+
+If a movie was made of your life what genre would it be, who would play you?
+
+TOPIC_BEGIN
+
+If you were famous, what would you be famous for?
+
+TOPIC_BEGIN
+
+You have to sing karaoke, what song do you pick?
+
+TOPIC_BEGIN
+
+What was your least favorite food as a child? Do you still hate it or do you love it now?
+
+TOPIC_BEGIN
+
+If you had to eat one meal everyday for the rest of your life what would it be?
+
+TOPIC_BEGIN
+
+If you were left on a deserted island with either your worst enemy or no one, which would you choose? Why?
+
+TOPIC_BEGIN
+
+If aliens landed on earth tomorrow and offered to take you home with them, would you go?
+
+TOPIC_BEGIN
+
+60s, 70s, 80s, 90s: Which decade do you love the most and why?
+
+TOPIC_BEGIN
+
+What’s your favorite sandwich and why?
+
+TOPIC_BEGIN
+
+What’s the best piece of advice you’ve ever been given?
+
+TOPIC_BEGIN
+
+When you die, what do you want to be remembered for?
+
+TOPIC_BEGIN
+
+What is your favorite item you’ve bought this year?
+
+TOPIC_BEGIN
+
+What would be the most surprising scientific discovery imaginable?
+
+TOPIC_BEGIN
+
+What is your absolute dream job?
+
+TOPIC_BEGIN
+
+What would your talent be if you were Miss or Mister World?
+
+TOPIC_BEGIN
+
+What would the title of your autobiography be?
+
+TOPIC_BEGIN
+
+Say you’re independently wealthy and don’t have to work, what would you do with your time?
+
+TOPIC_BEGIN
+
+If you had to delete all but 3 apps from your smartphone, which ones would you keep?
+
+TOPIC_BEGIN
+
+What is your favorite magical or mythological animal?
+
+TOPIC_BEGIN
+
+What does your favorite shirt look like?
+
+TOPIC_BEGIN
+
+Who is your favorite Disney hero or heroine? Would you trade places with them?
+
+TOPIC_BEGIN
+
+What would your dream house be like?
+
+TOPIC_BEGIN
+
+If you could add anyone to Mount Rushmore who would it be; why?
+
+TOPIC_BEGIN
+
+You’re going sail around the world, what’s the name of your boat?
+
+TOPIC_BEGIN
+
+What fictional family would you be a member of?
+
+TOPIC_BEGIN
+
+What is your favorite television network?
+
+TOPIC_BEGIN
+
+What sport would you compete in if you were in the Olympics?
+
+TOPIC_BEGIN
+
+Who is the better businessman or business woman and why? (Example: Justin Timberlake or Justin Bieber?)
+
+TOPIC_BEGIN
+
+What was the worst job you ever had?
+
+TOPIC_BEGIN
+
+You can have anyone fictional as your imaginary friend, who do you choose and why?
+
+TOPIC_BEGIN
+
+What would your superpower be and why?
+
+TOPIC_BEGIN
+
+Which band / artist – dead or alive would play at your funeral?
+
+TOPIC_BEGIN
+
+As a child, what did you want to be when you grew up?
+
+TOPIC_BEGIN
+
+What’s your favorite tradition or holiday?
+
+TOPIC_BEGIN
+
+What fictional world or place would you like to visit?
+
+TOPIC_BEGIN
+
+What is your favorite breakfast food?
+
+TOPIC_BEGIN
+
+What is your favorite time of the day and why?
+
+TOPIC_BEGIN
+
+Coffee or tea?
+
+TOPIC_BEGIN
+
+Teleportation or flying?
+
+TOPIC_BEGIN
+
+What is your favorite TV show?
+
+TOPIC_BEGIN
+
+What book, movie read/seen recently you would recommend and why?
+
+TOPIC_BEGIN
+
+What breed of dog would you be?
+
+TOPIC_BEGIN
+
+If you had a time machine, would go back in time or into the future?
+
+TOPIC_BEGIN
+
+Do you think you could live without your smartphone (or other technology item) for 24 hours?
+
+TOPIC_BEGIN
+
+What is your favorite dessert?
+
+TOPIC_BEGIN
+
+What was your favorite game to play as a child?
+
+TOPIC_BEGIN
+
+Are you a traveler or a homebody?
+
+TOPIC_BEGIN
+
+What’s one career you wish you could have?
+
+TOPIC_BEGIN
+
+What fictional world or place would you like to visit?
+
+TOPIC_BEGIN
+
+What’s your favorite place of all the places you’ve travelled?
+
+TOPIC_BEGIN
+
+Have you ever met your idol or someone you revere greatly?
+
+TOPIC_BEGIN
+
+Have you ever completed anything on your “bucket list”?
+
+TOPIC_BEGIN
+
+Do you have a favorite plant?
+
+TOPIC_BEGIN
+
+What did you have for breakfast this morning?
+
+TOPIC_BEGIN
+
+What was the country you last visited outside of United States?
+
+TOPIC_BEGIN
+
+What’s is one thing we don’t know about you?
+
+TOPIC_BEGIN
+
+What is your favorite meal to cook and why?
+
+TOPIC_BEGIN
+
+Are you a morning person or a night person?
+
+TOPIC_BEGIN
+
+What is your favorite musical instrument and why?
+
+TOPIC_BEGIN
+
+Are you a cat person or a dog person?
+
+TOPIC_BEGIN
+
+What languages do you know how to speak?
+
+TOPIC_BEGIN
+
+Popcorn or M&Ms?
+
+TOPIC_BEGIN
+
+What’s the weirdest food you’ve ever eaten?
+
+TOPIC_BEGIN
+
+What’s the most out-of-character thing you’ve ever done?
+
+TOPIC_BEGIN
+
+What is your cellphone wallpaper?
+
+TOPIC_BEGIN
+
+You can have an unlimited supply of one thing for the rest of your life, what is it? Sushi? Scotch Tape?
+
+TOPIC_BEGIN
+
+What’s your best scar story?
+
+TOPIC_BEGIN
+
+Would you go with aliens if they beamed down to Earth?
+
+TOPIC_BEGIN
+
+Are you sunrise, daylight, twilight, or nighttime? Why?
+
+TOPIC_BEGIN
+
+What season would you be?
+
+TOPIC_BEGIN
+
+Are you a good dancer?
+
+TOPIC_BEGIN
+
+What fruit or vegetable would you most want to be?
+
+TOPIC_BEGIN
+
+If you could hang out with any cartoon character, who would you choose and why?
+
+TOPIC_BEGIN
+
+If you could live anywhere in the world for a year, where would it be?
+
+TOPIC_BEGIN
+
+If you could commit any crime and get away with it what would you choose and why?
+
+TOPIC_BEGIN
+
+If you could choose any person from history to be your imaginary friend, who would it be and why?
+
+TOPIC_BEGIN
+
+If you could see one movie again for the first time, what would it be and why?
+
+TOPIC_BEGIN
+
+If you could bring back any fashion trend what would it be?
+
+TOPIC_BEGIN
+
+If you could live in any country, where would you live?
+
+TOPIC_BEGIN
+
+If you could choose any two famous people to have dinner with who would they be?
+
+TOPIC_BEGIN
+
+If you could be any animal in the world, what animal would you choose to be?
+
+TOPIC_BEGIN
+
+If you could do anything in the world as your career, what would you do?
+
+TOPIC_BEGIN
+
+If you could be any supernatural creature, what would you be and why?
+
+TOPIC_BEGIN
+
+If you could change places with anyone in the world, who would it be and why?
+
+TOPIC_BEGIN
+
+If you could rename yourself, what name would you pick?
+
+TOPIC_BEGIN
+
+If you could have someone follow you around all the time, like a personal assistant, what would you have them do?
+
+TOPIC_BEGIN
+
+If you could instantly become an expert in something, what would it be?
+
+TOPIC_BEGIN
+
+If you could be guaranteed one thing in life (besides money), what would it be?
+
+TOPIC_BEGIN
+
+If you had to teach a class on one thing, what would you teach?
+
+TOPIC_BEGIN
+
+If you could magically become fluent in any language, what would it be?
+
+TOPIC_BEGIN
+
+If you could be immortal, what age would you choose to stop aging at and why?
+
+TOPIC_BEGIN
+
+If you could be on a reality TV show, which one would you choose and why?
+
+TOPIC_BEGIN
+
+If you could choose any person from history to be your imaginary friend, who would it be and why?
+
+TOPIC_BEGIN
+
+If you could eliminate one thing from your daily routine, what would it be and why?
+
+TOPIC_BEGIN
+
+If you could go to Mars, would you? Why or why not?
+
+TOPIC_BEGIN
+
+If you could have the power of teleportation right now, where would you go and why?
+
+TOPIC_BEGIN
+
+If you could write a book that was guaranteed to be a best seller, what would you write?
+
+TOPIC_BEGIN
+
+Would you rather live in the ocean or on the moon?
+
+TOPIC_BEGIN
+
+Would you rather meet your travel back in time to meet your ancestors or to the future to meet your descendants?
+
+TOPIC_BEGIN
+
+Would you rather lose all of your money or all of your pictures?
+
+TOPIC_BEGIN
+
+Would you rather have invisibility or flight?
+
+TOPIC_BEGIN
+
+Would you rather live where it only snows or the temperature never falls below 100 degrees?
+
+TOPIC_BEGIN
+
+Would you rather always be slightly late or super early?
+
+TOPIC_BEGIN
+
+Would you rather give up your smartphone or your computer?
+
+TOPIC_BEGIN
+
+Would you rather live without heat and AC or live without social media?
+
+TOPIC_BEGIN
+
+Would you rather be the funniest or smartest person in the room?
+
+TOPIC_BEGIN
+
+Would you rather be able to run at 100 miles per hour or fly at 10 miles per hour?
+
+TOPIC_BEGIN
+
+Would you rather be a superhero or the world’s best chef?
+
+TOPIC_BEGIN
+
+Would you rather be an Olympic gold medallist or an astronaut?
+
+TOPIC_BEGIN
+
+Do you play any sports?
+
+TOPIC_BEGIN
+
+Do you play any instruments?
+
+TOPIC_BEGIN
+
+If you could donate a million dollars to any charity, what cause would you choose?
+
+TOPIC_BEGIN
+
+Do you have any hidden talents?
+
+TOPIC_BEGIN
+
+What school subject is your favorite?
+
+TOPIC_BEGIN
+
+What school subject is your least favorite?
+
+TOPIC_BEGIN
+
+What are you most excited about this year?
+
+TOPIC_BEGIN
+
+What song or album could you listen to on repeat?
+
+TOPIC_BEGIN
+
+If you could live in one fictional universe, which one would you choose?
+
+TOPIC_BEGIN
+
+Name one cool feature you would add to your dream house.
+
+TOPIC_BEGIN
+
+Describe a time you laughed so hard you thought you would cry, or when you did cry. What was so funny?
+
+TOPIC_BEGIN
+
+If you could have your own TV show, what would it be about?
+
+TOPIC_BEGIN
+
+What is one thing you want older generations to know about teenagers today?
+
+TOPIC_BEGIN
+
+What is your favorite memory with your best friend? (Your best friend can be an animal!)
+
+TOPIC_BEGIN
+
+What is the best dish you can cook?
+
+TOPIC_BEGIN
+
+What is your major?
+
+TOPIC_BEGIN
+
+If that wasn’t your major, what would your major be?
+
+TOPIC_BEGIN
+
+What most surprised you when you first started working at Yelp?
+
+TOPIC_BEGIN
+
+If I visited your hometown, what local spots would you suggest I see?
+
+TOPIC_BEGIN
+
+What is your favorite midnight snack?
+
+TOPIC_BEGIN
+
+What is your best study tip?
+
+TOPIC_BEGIN
+
+What is the strangest habit you have?
+
+TOPIC_BEGIN
+
+What is the most amazing story about your family?
+
+TOPIC_BEGIN
+
+What movie do you think everyone should watch?
+
+TOPIC_BEGIN
+
+What is the last TV show that you binge-watched?
+
+TOPIC_BEGIN
+
+What is one thing we would never guess about you?
+
+TOPIC_BEGIN
+
+Name an imaginary college class you wish schools offered.
+
+TOPIC_BEGIN
+
+What current fact about your life would most impress your five year old self?
+
+TOPIC_BEGIN
+
+Besides graduating, what is your number one goal for your remaining time at college?
+
+TOPIC_BEGIN
+
+Describe the best teacher you have had so far.
+
+TOPIC_BEGIN
+
+If you could have any animal for a pet, what would it be?
+
+TOPIC_BEGIN
+
+If your pet could talk, what do you think it would say?
+
+TOPIC_BEGIN
+
+Would you rather explore outer space or the bottom of the ocean?
+
+TOPIC_BEGIN
+
+Would you rather visit a volcano or a rainforest?
+
+TOPIC_BEGIN
+
+If you could only eat one dessert for the rest of your life, what would it be?
+
+TOPIC_BEGIN
+
+If you could choose any name besides your name, what would you choose?
+
+TOPIC_BEGIN
+
+If you had a million dollars, what would you buy first?
+
+TOPIC_BEGIN
+
+Who is your favorite Disney character?
+
+TOPIC_BEGIN
+
+If you could switch lives with anyone for a day, who would it be?
+
+TOPIC_BEGIN
+
+What is your favorite color?
+
+TOPIC_BEGIN
+
+Which cartoon character do you wish was real?
+
+TOPIC_BEGIN
+
+If you could have any superpower, what would it be?
+
+TOPIC_BEGIN
+
+What is your best idea for a new invention?
+
+TOPIC_BEGIN
+
+If you were invisible for a day, what would you do?
+
+TOPIC_BEGIN
+
+What is your favorite ice cream flavor and ice cream topping?
+
+TOPIC_BEGIN
