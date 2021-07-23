@@ -90,7 +90,8 @@ def create_event(
             "dateTime": end_time.strftime("%Y-%m-%dT%H:%M:%S"),
             "timeZone": "Europe/Berlin",
         },
-        "attendees": [{"email": email, "optional": True} for email in guest_emails],
+        "attendees": [{"email": email} for email in guest_emails],
+        "sendUpdates": "all",
     }
     created_event = (
         create_service(creds_dir=creds_dir)
