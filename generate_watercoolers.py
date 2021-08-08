@@ -55,8 +55,9 @@ def generate_watercoolers_for_user_group(
     )
     google_events = []
     for start_time, end_time in generate_event_times(user_group["slots"]):
+        number_of_topics = user_group.get("number_of_discussion_topics", 1)
+        number_of_rooms = user_group.get("number_of_rooms", 1)
         random.shuffle(user_group["user_emails"])
-        number_of_rooms = user_group["number_of_rooms"]
         if number_of_rooms < 1:
             error(f"Number of rooms must be positive, given {number_of_rooms}")
         gmeets = user_group["google_meet_links"]
@@ -65,15 +66,17 @@ def generate_watercoolers_for_user_group(
                 f"{len(gmeets)} google meet links provided, >= {number_of_rooms} required"
             )
         users_chunks = np.array_split(user_group["user_emails"], number_of_rooms)
-        chosen_topics = random.sample(all_topics, number_of_rooms)
+        chosen_topics = random.sample(all_topics, number_of_rooms * number_of_topics)
         for i in range(number_of_rooms):
             event_name = f"{user_group['user_group_name']} Watercooler #{i+1}"
             print(colored(f"<======= Creating {event_name}: =======>", "blue"))
             print(f"Event time: {start_time} - {end_time}")
             users_in_watercooler = users_chunks[i].tolist()
             print(colored("Participants: " + ",".join(users_in_watercooler), "green"))
-            print("Watercooler topic: ")
-            print(chosen_topics[i])
+            description = format_discussion_topics(
+                chosen_topics[(i*number_of_topics):((i+1)*number_of_topics)]
+            )
+            print(description)
             print(gmeets[i])
             google_events.append(
                 {
@@ -81,7 +84,7 @@ def generate_watercoolers_for_user_group(
                     "start_time": start_time,
                     "end_time": end_time,
                     "guest_emails": users_in_watercooler,
-                    "description": f"Watercooler topic:\n{chosen_topics[i]}",
+                    "description": description,
                     "google_meet": gmeets[i],
                     "creds_dir": script_dir,
                 }
@@ -89,6 +92,14 @@ def generate_watercoolers_for_user_group(
 
     for event in google_events:
         create_event(**event)
+
+
+def format_discussion_topics(topics: List[str]) -> str:
+    formatted_description = "Have fun socialising!!!"
+    formatted_description += "\nAwkward silence? Here are some suggested discussion topics:"
+    for i in range(len(topics)):
+        formatted_description += f"\n\nTopic #{i+1}: {topics[i]}"
+    return formatted_description
 
 
 def generate_event_times(slots: List[Dict[str, str]]) -> Tuple[datetime, datetime]:
