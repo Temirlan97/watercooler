@@ -1,4 +1,4 @@
-import math
+import logging
 import numpy as np
 import os
 import pathlib
@@ -14,6 +14,9 @@ from typing import List
 from typing import Tuple
 
 from gcal.create_events import create_event
+
+
+logging.getLogger().setLevel(logging.ERROR)
 
 
 def generate_watercoolers():

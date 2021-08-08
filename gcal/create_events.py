@@ -91,12 +91,11 @@ def create_event(
             "timeZone": "Europe/Berlin",
         },
         "attendees": [{"email": email} for email in guest_emails],
-        "sendUpdates": "all",
     }
     created_event = (
         create_service(creds_dir=creds_dir)
         .events()
-        .insert(calendarId="primary", body=event)
+        .insert(calendarId="primary", body=event, sendUpdates="all")
         .execute()
     )
     logging.info(f"Event created: {(created_event.get('htmlLink'))}")
